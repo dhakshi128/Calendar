@@ -1,0 +1,86 @@
+body{
+    background-color:whitesmoke;
+    color:black;
+    font-family: cursive;
+    margin:0;
+    padding:0;
+}
+#container{
+    border:5px black solid;
+    box-shadow:1px 1px 1px 1px black;
+    position:absolute;
+    left:35%;
+    top:10%;
+    background-color:skyblue;
+}
+h3{
+    position:absolute;
+    left:35%;
+}
+header{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    padding-top:20px;
+    font-weight: bold;
+    
+}
+hr{
+    border:2px solid black;
+}
+button{
+    border-radius:50px;
+    width:20%;
+    background-color:pink;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color:palevioletred;
+    transition:0.3s ease;
+}
+
+#days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); 
+    margin-top: 10px;
+}
+
+.day {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px; 
+}
+
+#dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); 
+}
+
+.date {
+    text-align: center;
+    padding: 15px; 
+}
+
+.date:hover{
+    cursor: pointer;
+    background-color:palevioletred;
+    color:white;
+    border-radius:25px;
+}
+.disabled{
+    color:grey;
+
+}
+
+.today{
+    background-color:purple;
+    color:white;
+    border-radius:25px;
+}
+
+footer{
+    padding-top:10px;
+    text-align:center;
+}
+
